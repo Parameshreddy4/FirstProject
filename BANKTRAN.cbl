@@ -28,6 +28,7 @@
                        COMPUTE WS-FINAL-BALANCE=WS-BALANCE + WS-CHARGE
                END-EVALUATE.
                DISPLAY "TRANSACTION TYPE : " WS-TRAN-TYPE.
+               DISPLAY "CHARGES : " WS-CHARGE.
                DISPLAY "FINAL BALANCE : " WS-FINAL-BALANCE.
                STOP RUN.
                        
